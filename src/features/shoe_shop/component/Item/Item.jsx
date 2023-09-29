@@ -26,7 +26,7 @@ class Item extends Component {
                                 }}
                                 className='btn btn-info mr-2'>View</button>
                             <button
-                                onMouseOver={() => {
+                                onClick={() => {
                                     this.props.handelBuy(this.props.item)
                                 }}
                                 className='btn btn-success'>Add
